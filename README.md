@@ -8,7 +8,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
 
-
+-------------------------------------------------------------
+                        Description
 -------------------------------------------------------------
 Font-Weight Property Values
 Value
@@ -28,6 +29,40 @@ Sets the font-weight lighter than the parent element.
 
 <number>
 A numeric value between 1 and 1000, inclusive (increasing boldness).
+
+==================================================================
+                          Example
+=================================================================
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+        h2 {
+            font-weight: 700;
+            color: green;
+        }
+
+        .text {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>
+        Welcome To Geeks for Geeks
+    </h2>
+    <p class="text">
+        A Computer Science portal for geeks
+    </p>
+
+</body>
+
+</html>
+
+
 
 
 
